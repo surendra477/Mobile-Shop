@@ -1,0 +1,288 @@
+/* .bt{
+    margin-right: 5%;
+    padding-right: 5%;
+}
+nav{
+ box-shadow: 2px -2px 0 5px rgba(0,0,255,0.673);
+ 
+}
+.navs-clr{
+    color: black !important;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid black;
+    transition: all .4s;
+    padding-top:5rem ;
+}
+
+.nav-item {
+   transition: all .8s;
+}
+
+.home{
+    background-image:linear-gradient(to right bottom, blue, rgb(110, 196, 110));
+    height:647px
+}
+
+#btn1{
+    padding-right: 95px;
+    padding-left: 95px;
+}
+
+.card-img-top{
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.img1{
+    transform: translateY(-120px);
+}
+
+.btn-show{
+      background-image:linear-gradient(to right bottom, blue, rgb(110, 196, 110));
+      color: white;
+      border: none;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+
+.card:hover{
+    transition: all .4s;
+    box-shadow: 2px 2px 2px 4px rgba(206, 203, 203, 0.473);
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #222;
+} */
+
+.nav-item:hover {
+    border-bottom: 2px solid black;
+    transition: all .4s;
+    padding-top: 4rem;
+}
+
+nav {
+    box-shadow: 2px -2px 0 5px rgba(0, 0, 255, 0.673);
+}
+
+.nav-item {
+
+    transition: all .4s;
+}
+
+.home {
+    background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+    background-attachment: fixed;
+    height: 715px;
+}
+
+.btn1 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.img1 {
+    transform: translateY(-180px);
+    z-index: -100;
+}
+
+.btn {
+    background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+    color: white;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    transition: all .5s;
+}
+
+.card:hover {
+    transition: all .5s;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 255, 0.212);
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #222;
+}
+
+#btn1 {
+    font-size: 34px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .text {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1051px) {
+    nav {
+        align-items: center;
+    }
+}
+
+#home__header {
+    font-size: 150px;
+    color: white;
+}
+
+@media (min-width: 0px) and (max-width: 250px) {
+    #home__header {
+        font-size: 40px;
+        color: white;
+    }
+
+    #btn1 {
+        font-size: 14px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        background-attachment: fixed;
+        height: 415px;
+    }
+
+    .img1 {
+        transform: translateY(-20px) translateX(-10px);
+        min-width: 120px;
+    }
+
+    .card-img-top {
+        max-height: 100px;
+        min-height: 100px;
+    }
+
+    .btn-show {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        color: white;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-color: #222;
+    }
+}
+
+@media (min-width: 250.1px) and (max-width: 450px) {
+    #home__header {
+        font-size: 70px;
+        color: white;
+    }
+
+    #btn1 {
+        font-size: 24px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        background-attachment: fixed;
+        height: 455px;
+    }
+
+    .img1 {
+        transform: translateY(-20px);
+        min-width: 120px;
+    }
+
+    .card-img-top {
+        max-height: 100px;
+        min-height: 100px;
+    }
+
+    .btn-show {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        color: white;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-color: #222;
+    }
+}
+
+@media (min-width: 450.1px) and (max-width: 600px) {
+    #home__header {
+        font-size: 70px;
+        color: white;
+    }
+
+    #btn1 {
+        font-size: 24px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .home {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        background-attachment: fixed;
+        height: 455px;
+    }
+
+    .img1 {
+        transform: translateY(-20px);
+        min-width: 120px;
+    }
+
+    .card-img-top {
+        max-height: 200px;
+        min-height: 150px;
+    }
+
+    .btn-show {
+        background-image: linear-gradient(to right bottom, blue, rgba(110, 187, 110, 0.952));
+        color: white;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-color: #222;
+    }
+}
